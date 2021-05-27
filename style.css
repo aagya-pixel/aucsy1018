@@ -415,3 +415,36 @@ textarea{
 	.cv-contact-info{
 		padding: 50px;
 	}
+	/*portfolio*/
+	#portfolio{
+		display: flex;
+	}
+	.menu{
+		position: sticky;
+	}
+	.main{
+        max-width: 1000px;
+        margin: auto;
+	}
+h4{
+	color: white ;
+	font-size: 80px;
+
+}
+.row{
+	margin: 5px 12px;
+	color: white;
+
+}
+.column{
+	float: left;
+	width: 50%;
+}
+@media screen and (max-width: 1150px){
+	#portfolio{
+		display: flex;
+		flex-direction: column;
+}
+#menu-portfolio{
+	height: 30vh;
+}
