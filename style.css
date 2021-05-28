@@ -511,3 +511,63 @@ footer{
 	padding: 10px 15px;
 	background-color: rgb(243, 234, 234);
 }
+.v-screenshot{
+	height: 400px;
+	align-items: center;
+}
+.validation-report,.images-progress{
+	padding: 10px 15px;
+}
+.images-progress{
+	background-color: rgb(245, 231, 215);
+	dispaly: block;
+}
+.screenshots{
+	display: flex;
+	padding: 5px;
+}
+.v-screenshot1{
+	height: 200px;
+}
+.screenshot-imagee{
+	display: flex;
+	padding: 5px;
+}
+.reference{
+	text-align: center;
+	background-color: rgb(161, 2, 29);
+	padding: 15px;
+}
+/*====responsive site report====*/
+@media screen and (max-width: 1110px){
+	.sitereport-section{
+		dispaly: block;
+	}
+.v-screenshot{
+	height: 300px;
+	align-items: center;
+}
+.v-screenshot1{
+	height: 320px;
+}
+.screenshot-imagee{
+	display: block;
+	padding: 5px;
+}
+@media screen and(max-width: 550px){
+
+}
+.v-screenshot{
+	height: 100px;
+	align-items: center;
+}
+.v-screenshot1{
+	height: 110px;
+}
+.screenshot-imagee{
+	display: block;
+	padding: 3px;
+	align-items: center;
+}
+
+}
